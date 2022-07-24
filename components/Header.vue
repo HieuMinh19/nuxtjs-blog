@@ -12,27 +12,27 @@
     </div>
     <header class="header" role="banner">
       <div class="left-pane">
-        <a
+        <nuxt-link
           class="ti-logo"
-          href="https://www.touristisrael.com"
+          to="/"
           style="background-color: rgb(249, 134, 77)"
           ><img
             src="https://www.touristisrael.com/wp-content/themes/tourist-israel/images/logo-ti.svg"
             alt="Tourist Israel Logo"
             loading="eager"
           />
-          <p>Tours</p></a
-        >
+          <p>Tours</p>
+        </nuxt-link>
       </div>
 
       <nav>
         <div class="nav-menu">
           <ul>
-            <li>TOURS & THINKS TO DO</li>
-            <li>PACKAGES</li>
-            <li>HOTELS & STAYS</li>
-            <li>PLACES TO VISIT</li>
-            <li>SEARCH</li>
+            <li><a href="#">TOURS & THINKS TO DO</a></li>
+            <li><a href="">PACKAGES</a></li>
+            <li><a href="#">HOTELS & STAYS</a></li>
+            <li><a href="#">PLACES TO VISIT</a></li>
+            <li><NuxtLink to="/search">SEARCH</NuxtLink></li>
           </ul>
         </div>
       </nav>
