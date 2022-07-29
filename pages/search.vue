@@ -48,9 +48,9 @@ article {
     color: #3e2600;
   }
 
-  #search-form  {
+  #search-form {
     input.field {
-      font-family: 'HK Grotesk';
+      font-family: "HK Grotesk";
       font-size: 24px;
       font-weight: normal;
       display: block;
@@ -62,7 +62,7 @@ article {
     }
 
     input.submit {
-      font-family: 'bebas-neue-pro-expanded';
+      font-family: "bebas-neue-pro-expanded";
       font-size: 32px;
       font-weight: 600;
       line-height: 36px;
@@ -73,7 +73,7 @@ article {
       margin-left: auto;
       padding: 10px;
       cursor: pointer;
-      transition: color .15s ease-in-out, background-color .15s ease-in-out;
+      transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
       text-transform: uppercase;
       color: white;
       border: 2px solid #0baee6;
